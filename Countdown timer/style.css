@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=Mukta:wght@200&family=Roboto+Condensed:wght@300&display=swap'");
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("./snow.jpg");
+    font-family: 'Mukta';
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-position: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+h1 {
+    font-size: 4rem;
+    margin-top: -15rem;
+    font-weight: normal;
+    margin-top: 2rem;
+}
+
+.countdown-container {
+    display: flex;
+}
+
+.big-text {
+    font-size: 8rem;
+    line-height: 1;
+    margin: 0 2rem;
+}
+
+.countdown-el {
+    text-align: center;
+    font-weight: bold;
+}
+
+.countdown-el span {
+    font-size: 2rem;
+    font-weight: bold;
+}
